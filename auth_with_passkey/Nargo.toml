@@ -1,0 +1,7 @@
+[package]
+name = "auth_with_passkey"
+type = "bin"
+authors = [""]
+
+[dependencies]
+webauthn = { tag = "v0.36.0", git = "https://github.com/olehmisar/noir_webauthn" }
